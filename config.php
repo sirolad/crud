@@ -11,6 +11,3 @@ $db_name = "crud";
 
 // Create connection
 $connection = mysqli_connect($server, $db_user, $db_pass, $db_name);
-
-
-
