@@ -8,6 +8,8 @@
 
 <?php
 include 'links.php';
+
+include 'get.php';
 ?>
 </body>
 </html>
