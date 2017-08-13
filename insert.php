@@ -8,7 +8,7 @@ $password = htmlspecialchars($_POST['password']);
 $cpassword = htmlspecialchars($_POST['cpassword']);
 
 if ($name && $email && $password && $cpassword) {
-    if (strlen($password > 5)) {
+    if (strlen($password) > 5) {
         if ($password == $cpassword) {
             if (!$connection) {
                 die("Could not connect to database!");
